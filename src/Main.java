@@ -1,14 +1,11 @@
-/* Write a Java program to print 'Hello' on screen and your name on a separate line.
-Expected Output :
-Hello
-Alexandra Abramov
-*/
+/*  Write a Java program to divide two numbers and
+print them on the screen.50/38 */
 
 public class Main{
     public static void main(String[] args){
-        String message = "Hello";
-        String myName = "Kamo Ashley";
-        System.out.println(message);
-        System.out.println(myName);
+        int a = 50;
+        int b = 3;
+        System.out.println(a/b);
     }
+
 }
