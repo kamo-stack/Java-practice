@@ -1,14 +1,14 @@
-/*  Write a Java program to print the sum of two numbers.
-Test Data:
-74 + 36
+/* Write a Java program to print 'Hello' on screen and your name on a separate line.
 Expected Output :
-110 */
+Hello
+Alexandra Abramov
+*/
 
 public class Main{
     public static void main(String[] args){
-        int a = 74;
-        int b = 36;
-        System.out.println(a + b);
-
+        String message = "Hello";
+        String myName = "Kamo Ashley";
+        System.out.println(message);
+        System.out.println(myName);
     }
 }
