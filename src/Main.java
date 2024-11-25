@@ -1,11 +1,15 @@
-/*  Write a Java program to divide two numbers and
-print them on the screen.50/38 */
-
 public class Main{
     public static void main(String[] args){
-        int a = 50;
-        int b = 3;
-        System.out.println(a/b);
+       int firstNum = 125;
+       int secondNum = 24;
+
+       System.out.println("125 + 24 =" + " " + (firstNum + secondNum));
+       System.out.println("125 - 24 =" + " " + (firstNum - secondNum));
+       System.out.println("125 * 24 =" + " " + (firstNum * secondNum));
+       System.out.println("125/24 =" + " " + (firstNum / secondNum));
+       System.out.println("125 % 24 =" + " " + (firstNum % secondNum));
+
+
     }
 
 }
